@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <SelectTree></SelectTree>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SelectTree from './components/SelectTree.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SelectTree
   }
 }
 </script>
